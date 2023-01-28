@@ -1,6 +1,6 @@
 package com.andradahugo.myapplication.di
 
-import com.andradahugo.myapplication.api.UnsplashApi
+import com.andradahugo.myapplication.data.remote.UnsplashApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

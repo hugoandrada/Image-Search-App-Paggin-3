@@ -1,8 +1,8 @@
-package com.andradahugo.myapplication.presentation
+package com.andradahugo.myapplication.presentation.viewmodel
 
 import androidx.lifecycle.*
 import androidx.paging.cachedIn
-import com.andradahugo.myapplication.data.UnsplashRepository
+import com.andradahugo.myapplication.data.repository.UnsplashRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

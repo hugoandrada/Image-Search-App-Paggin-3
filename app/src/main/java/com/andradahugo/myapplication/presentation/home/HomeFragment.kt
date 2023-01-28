@@ -1,4 +1,4 @@
-package com.andradahugo.myapplication.ui
+package com.andradahugo.myapplication.presentation.home
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,9 +12,11 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import com.andradahugo.myapplication.R
-import com.andradahugo.myapplication.data.UnsplashPhoto
+import com.andradahugo.myapplication.data.model.UnsplashPhoto
 import com.andradahugo.myapplication.databinding.FragmentHomeBinding
-import com.andradahugo.myapplication.presentation.UnsplashViewModel
+import com.andradahugo.myapplication.presentation.viewmodel.UnsplashViewModel
+import com.andradahugo.myapplication.presentation.adapter.UnsplashPhotoAdapter
+import com.andradahugo.myapplication.presentation.adapter.UnsplashPhotoLoadStateAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

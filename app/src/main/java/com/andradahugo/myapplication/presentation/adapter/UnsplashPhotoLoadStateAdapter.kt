@@ -1,4 +1,4 @@
-package com.andradahugo.myapplication.ui
+package com.andradahugo.myapplication.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

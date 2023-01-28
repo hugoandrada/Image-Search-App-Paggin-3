@@ -2,8 +2,8 @@ package com.andradahugo.myapplication.pagging
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.andradahugo.myapplication.api.UnsplashApi
-import com.andradahugo.myapplication.data.UnsplashPhoto
+import com.andradahugo.myapplication.data.remote.UnsplashApi
+import com.andradahugo.myapplication.data.model.UnsplashPhoto
 import retrofit2.HttpException
 import java.io.IOException
 

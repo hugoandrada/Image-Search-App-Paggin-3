@@ -1,10 +1,11 @@
-package com.andradahugo.myapplication.ui
+package com.andradahugo.myapplication.presentation.detail
 
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.andradahugo.myapplication.data.model.UnsplashPhoto
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.navigation.fragment.navArgs

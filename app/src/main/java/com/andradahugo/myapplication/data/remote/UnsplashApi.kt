@@ -1,4 +1,4 @@
-package com.andradahugo.myapplication.api
+package com.andradahugo.myapplication.data.remote
 
 import retrofit2.http.GET
 import retrofit2.http.Headers

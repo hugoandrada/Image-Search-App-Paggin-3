@@ -1,9 +1,9 @@
-package com.andradahugo.myapplication.data
+package com.andradahugo.myapplication.data.repository
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.liveData
-import com.andradahugo.myapplication.api.UnsplashApi
+import com.andradahugo.myapplication.data.remote.UnsplashApi
 import com.andradahugo.myapplication.pagging.UnsplashPagingSource
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -1,4 +1,4 @@
-package com.andradahugo.myapplication.ui
+package com.andradahugo.myapplication.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,14 +6,15 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.andradahugo.myapplication.R
-import com.andradahugo.myapplication.data.UnsplashPhoto
+import com.andradahugo.myapplication.data.model.UnsplashPhoto
 import com.andradahugo.myapplication.databinding.ItemUnsplashPhotoBinding
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 
 class UnsplashPhotoAdapter(private val listener: OnItemClickListener) :
     PagingDataAdapter<UnsplashPhoto, UnsplashPhotoAdapter.PhotoViewHolder>(
-        PHOTO_COMPARATOR) {
+        PHOTO_COMPARATOR
+    ) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PhotoViewHolder {
         val binding =
